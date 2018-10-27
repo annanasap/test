@@ -21,6 +21,14 @@ if answ == "y":
 else:
     print("waarom doe je deze quiz? Helaas!")
 
+
+answ = input("Zoek je ruzie? " )
+if answ == "ruzie zoekt mij":
+    print("Weet je dat nu al? Goed hoor")
+    correct += 1
+else:
+    print("Pudding en gisteren zijn teleurgesteld!")
+
 answ = input("Waarom heeft haarlem zoveel kappers? " )
 if answ == "haar":
     print("Jaja.. Goed!")
