@@ -22,7 +22,7 @@ else:
     print("waarom doe je deze quiz? Helaas!")
 
 answ = input("Waarom heeft haarlem zoveel kappers? " )
-if answ == "Omdat het haarlem heet":
+if answ == "haar":
     print("Jaja.. Goed!")
     correct += 1
 else:
