@@ -20,4 +20,11 @@ if answ == "y":
     correct += 1
 else:
     print("waarom doe je deze quiz? Helaas!")
-print("Je hebt in totaal " + str(correct / 3) + "% van de vragen goed")
+
+answ = input("Waarom heeft haarlem zoveel kappers? " )
+if answ == "Omdat het haarlem heet":
+    print("Jaja.. Goed!")
+    correct += 1
+else:
+    print("Kijk naar de naam; logisch toch?")
+print("Je hebt in totaal " + str(correct / 4) + "% van de vragen goed")
